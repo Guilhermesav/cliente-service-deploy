@@ -9,5 +9,5 @@ spec:
 
   type: ClusterIP
   ports:
-    - port: 52323
-      targetPort: 52323
+    - port: 80
+      targetPort: 80
