@@ -18,4 +18,4 @@ spec:
       - name: cliente-service
         image: cliente-service
         ports:
-        - containerPort: 52323
+        - containerPort: 80
