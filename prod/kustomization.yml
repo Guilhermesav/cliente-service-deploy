@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - cliente-deploy.yaml
-  - cliente-service.yaml
-  - cliente-ingress.yaml
+  - cliente-deploy.yml
+  - cliente-service.yml
+  - cliente-ingress.yml
 images:
   - name: cliente-service
     newName: guilhermesav/cliente-service
