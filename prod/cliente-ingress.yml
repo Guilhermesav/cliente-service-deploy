@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+
+metadata:
+  name: cliente-service
+
+spec:
+  ingressClassName: kong
+  rules:
+  - host: cliente.bloco.live
+    http:
+      paths:
+      - backend:
+          service:
+            name: cliente-service
+            port:
+              number: 52323
+        path: /
+        pathType: Prefix
