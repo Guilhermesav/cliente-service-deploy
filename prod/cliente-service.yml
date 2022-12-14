@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cliente-service
+
+spec:
+  selector:
+    app: cliente-service
+
+  type: ClusterIP
+  ports:
+    - port: 52323
+      targetPort: 52323
