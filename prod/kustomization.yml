@@ -7,4 +7,4 @@ resources:
 images:
   - name: cliente-service
     newName: guilhermesav/cliente-service
-    newTag: "221215.cd877d6"
+    newTag: "221229.8b02957"
